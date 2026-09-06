@@ -10,7 +10,7 @@ Jweokk 的开源作品合集首页 —— 一个入口看到全部作品：开�
 |---|---|---|---|
 | 《AI 原生组织》 | aiorg.fly2ai.top | [Jweokk/ai-native-organization-book](https://github.com/Jweokk/ai-native-organization-book) | ✅ 周更中 |
 | 《AI 时代人生指南》 | ailife.fly2ai.top | [Jweokk/ai-life-guide](https://github.com/Jweokk/ai-life-guide) | ✅ 已出版 |
-| 《AI 客户经营》 | ai-customer-growth.fly2ai.top | [Jweokk/ai-customer-growth-book](https://github.com/Jweokk/ai-customer-growth-book) | ✅ 已出版 |
+| 《AI 客户经营》 | ai-customer-growth.fly2ai.top | [Jweokk/ai-customer-growth-book](https://github.com/Jweokk/ai-customer-growth-book) | ✅ 周更中 |
 
 ### 🧰 开源项目
 
