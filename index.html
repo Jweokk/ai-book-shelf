@@ -7,45 +7,46 @@
 <meta name="description" content="Jweokk 的开源作品集：免费开源书（AI 原生组织、AI 时代人生指南、AI 客户经营）+ 开源项目（Book2Advisor 方法论顾问框架）。GitHub 全部公开。">
 <style>
   :root {
-    --bg: #0f1117;
-    --card: #1a1d27;
-    --border: #2a2e3d;
-    --text: #e8eaf0;
-    --muted: #9aa1b5;
+    --bg1: #fdf6ff;
+    --bg2: #f0f7ff;
+    --text: #2d3748;
+    --muted: #718096;
     --accent: #7c6cff;
-    --accent2: #4cc9f0;
-    --green: #3ddc97;
-    --amber: #f5a623;
-    --radius: 16px;
+    --accent2: #38bdf8;
+    --pink: #f472b6;
+    --green: #10b981;
+    --amber: #f59e0b;
+    --card: #ffffff;
+    --radius: 20px;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    background: var(--bg);
+    background: linear-gradient(160deg, var(--bg1) 0%, var(--bg2) 50%, #fef9ec 100%);
+    background-attachment: fixed;
     color: var(--text);
     line-height: 1.7;
     min-height: 100vh;
   }
   .wrap { max-width: 1080px; margin: 0 auto; padding: 48px 24px 80px; }
-  header { text-align: center; margin-bottom: 48px; }
+  header { text-align: center; margin-bottom: 44px; }
   header h1 {
-    font-size: 2.4rem; font-weight: 800; letter-spacing: -0.02em;
-    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    font-size: 2.6rem; font-weight: 800; letter-spacing: -0.02em;
+    background: linear-gradient(120deg, var(--accent), var(--pink) 45%, var(--accent2));
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
   }
   header p { color: var(--muted); font-size: 1.05rem; max-width: 640px; margin: 0 auto; }
   .section-title {
-    font-size: 1.25rem; font-weight: 700;
-    margin: 40px 0 18px;
-    padding-left: 14px;
-    border-left: 4px solid var(--accent);
+    font-size: 1.3rem; font-weight: 700;
+    margin: 44px 0 20px;
     display: flex; align-items: center; gap: 10px;
   }
   .section-title .count {
     font-size: .75rem; font-weight: 600; color: var(--muted);
-    background: var(--card); border: 1px solid var(--border);
-    padding: 2px 10px; border-radius: 999px;
+    background: #fff; border: 1px solid #e2e8f0;
+    padding: 2px 12px; border-radius: 999px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
   }
   .grid {
     display: grid;
@@ -54,44 +55,47 @@
   }
   .card {
     background: var(--card);
-    border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 28px;
     display: flex; flex-direction: column;
-    transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+    border: 1px solid #eef0f6;
+    box-shadow: 0 4px 20px rgba(124, 108, 255, .07);
+    transition: transform .2s ease, box-shadow .25s ease;
   }
   .card:hover {
-    transform: translateY(-4px);
-    border-color: var(--accent);
-    box-shadow: 0 12px 40px rgba(124, 108, 255, 0.15);
+    transform: translateY(-5px) rotate(-0.4deg);
+    box-shadow: 0 14px 36px rgba(124, 108, 255, .16);
   }
   .card .tag {
     align-self: flex-start;
     font-size: .72rem; font-weight: 700;
-    padding: 3px 12px; border-radius: 999px;
+    padding: 4px 14px; border-radius: 999px;
     margin-bottom: 16px; letter-spacing: .03em;
   }
-  .tag.published { background: rgba(76, 201, 240, .15); color: var(--accent2); }
-  .tag.writing   { background: rgba(124, 108, 255, .15); color: var(--accent); }
-  .tag.project   { background: rgba(61, 220, 151, .15); color: var(--green); }
-  .card h2 { font-size: 1.35rem; font-weight: 700; margin-bottom: 10px; }
-  .card .desc { color: var(--muted); font-size: .92rem; flex-grow: 1; margin-bottom: 18px; }
-  .card .links { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag.published { background: #e0f2fe; color: #0369a1; }
+  .tag.writing   { background: #ede9fe; color: #6d28d9; }
+  .tag.project   { background: #d1fae5; color: #047857; }
+  .card h2 { font-size: 1.4rem; font-weight: 800; margin-bottom: 8px; }
+  .card .desc { color: var(--muted); font-size: .93rem; flex-grow: 1; margin-bottom: 18px; }
+  .card .links { display: flex; flex-wrap: wrap; gap: 10px; }
   .card .links a {
-    font-size: .82rem; text-decoration: none; color: var(--text);
-    border: 1px solid var(--border); border-radius: 8px;
-    padding: 5px 14px; transition: all .15s ease;
+    font-size: .85rem; font-weight: 600; text-decoration: none;
+    color: var(--accent);
+    background: #f5f3ff;
+    border-radius: 999px;
+    padding: 7px 18px;
+    transition: all .18s ease;
   }
-  .card .links a:hover { background: var(--accent); border-color: var(--accent); }
+  .card .links a:hover { background: var(--accent); color: #fff; transform: translateY(-1px); }
   footer { text-align: center; margin-top: 64px; color: var(--muted); font-size: .85rem; }
-  footer a { color: var(--accent2); text-decoration: none; }
+  footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>Jweokk 作品集</h1>
-    <p>开源书 + 开源项目：全部免费公开，GitHub 仓库可读可 fork。写作与构建都在持续进行。</p>
+    <h1>🎨 Jweokk 作品集</h1>
+    <p>开源书 + 开源项目，全部免费公开。写作与构建都在持续进行——欢迎来逛 🚀</p>
   </header>
 
   <!-- ============ 开源书 ============ -->
@@ -137,7 +141,7 @@
     <div class="card">
       <span class="tag project">🛠 开源框架</span>
       <h2>Book2Advisor</h2>
-      <p class="desc">把一个人的书、文章、演讲编译成可追溯、可推演的方法论顾问——回答"按这个人的方法，他会怎么想"。核心：Person Method Model（方法模型）+ Method Transfer（书外新问题按方法论推演）+ 证据优先（引用/推演严格分离，杜绝幻觉引用）。换人只换语料，零代码改动。</p>
+      <p class="desc">把一个人的书、文章、演讲编译成可追溯、可推演的方法论顾问——回答"按这个人的方法，他会怎么想"。核心：Person Method Model + Method Transfer + 证据优先（引用/推演严格分离，杜绝幻觉引用）。换人只换语料，零代码改动。</p>
       <div class="links">
         <a href="https://github.com/Jweokk/Book2Advisor" target="_blank" rel="noopener">GitHub 仓库</a>
       </div>
