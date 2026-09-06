@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 时代书架 · Jweokk 的开源书</title>
-<meta name="description" content="Jweokk 的开源书籍合集：免费在线阅读 + GitHub 仓库 + PDF 下载。AI 原生组织、AI 时代人生指南、AI 客户经营……持续更新中。">
+<title>Jweokk 作品集 · 开源书与开源项目</title>
+<meta name="description" content="Jweokk 的开源作品集：免费开源书（AI 原生组织、AI 时代人生指南、AI 客户经营）+ 开源项目（Book2Advisor 方法论顾问框架）。GitHub 全部公开。">
 <style>
   :root {
     --bg: #0f1117;
@@ -14,6 +14,8 @@
     --muted: #9aa1b5;
     --accent: #7c6cff;
     --accent2: #4cc9f0;
+    --green: #3ddc97;
+    --amber: #f5a623;
     --radius: 16px;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -25,7 +27,7 @@
     min-height: 100vh;
   }
   .wrap { max-width: 1080px; margin: 0 auto; padding: 48px 24px 80px; }
-  header { text-align: center; margin-bottom: 56px; }
+  header { text-align: center; margin-bottom: 48px; }
   header h1 {
     font-size: 2.4rem; font-weight: 800; letter-spacing: -0.02em;
     background: linear-gradient(135deg, var(--accent), var(--accent2));
@@ -33,6 +35,18 @@
     margin-bottom: 12px;
   }
   header p { color: var(--muted); font-size: 1.05rem; max-width: 640px; margin: 0 auto; }
+  .section-title {
+    font-size: 1.25rem; font-weight: 700;
+    margin: 40px 0 18px;
+    padding-left: 14px;
+    border-left: 4px solid var(--accent);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .section-title .count {
+    font-size: .75rem; font-weight: 600; color: var(--muted);
+    background: var(--card); border: 1px solid var(--border);
+    padding: 2px 10px; border-radius: 999px;
+  }
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -59,7 +73,7 @@
   }
   .tag.published { background: rgba(76, 201, 240, .15); color: var(--accent2); }
   .tag.writing   { background: rgba(124, 108, 255, .15); color: var(--accent); }
-  .tag.planning  { background: rgba(154, 161, 181, .15); color: var(--muted); }
+  .tag.project   { background: rgba(61, 220, 151, .15); color: var(--green); }
   .card h2 { font-size: 1.35rem; font-weight: 700; margin-bottom: 10px; }
   .card .desc { color: var(--muted); font-size: .92rem; flex-grow: 1; margin-bottom: 18px; }
   .card .links { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -76,10 +90,12 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>AI 时代书架</h1>
-    <p>Jweokk 的开源书：每本免费在线阅读、GitHub 仓库公开、定期更新。写作是一个持续的过程——书架上的书也在生长。</p>
+    <h1>Jweokk 作品集</h1>
+    <p>开源书 + 开源项目：全部免费公开，GitHub 仓库可读可 fork。写作与构建都在持续进行。</p>
   </header>
 
+  <!-- ============ 开源书 ============ -->
+  <div class="section-title">📚 开源书 <span class="count">3</span></div>
   <div class="grid">
     <!-- AI 原生组织 -->
     <div class="card">
@@ -110,6 +126,20 @@
       <p class="desc">AI 如何重塑客户从开拓、转化到服务、留存的全生命周期。写给销售、客户成功与增长团队：当每个客户都值得被 AI 认真对待时，人做什么。</p>
       <div class="links">
         <a href="https://github.com/Jweokk/ai-customer-growth-book" target="_blank" rel="noopener">GitHub 仓库（即将开放）</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 开源项目 ============ -->
+  <div class="section-title">🧰 开源项目 <span class="count">1</span></div>
+  <div class="grid">
+    <!-- Book2Advisor -->
+    <div class="card">
+      <span class="tag project">🛠 开源框架</span>
+      <h2>Book2Advisor</h2>
+      <p class="desc">把一个人的书、文章、演讲编译成可追溯、可推演的方法论顾问——回答"按这个人的方法，他会怎么想"。核心：Person Method Model（方法模型）+ Method Transfer（书外新问题按方法论推演）+ 证据优先（引用/推演严格分离，杜绝幻觉引用）。换人只换语料，零代码改动。</p>
+      <div class="links">
+        <a href="https://github.com/Jweokk/Book2Advisor" target="_blank" rel="noopener">GitHub 仓库</a>
       </div>
     </div>
   </div>
