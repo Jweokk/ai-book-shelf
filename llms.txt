@@ -1,0 +1,22 @@
+# Jweokk 作品集 / Jweokk's shelf
+
+> 一个入口看到全部作品：免费开源书 + 开源项目。每件作品独立仓库、独立域名，本仓库只是聚合入口。
+
+Free, open, continuously updated books and tools by Jweokk — one index for all of them. The shelf itself
+is a single static page; each work lives in its own repository with its own site.
+
+- 站点 / Site：https://ai.fly2ai.top
+- 许可 / License：各作品各自的许可（书为非商业分享 CC BY-NC-SA 4.0，代码多为 MIT）
+- 联系 / Contact：weokk2025@gmail.com
+
+## 开源书 / Open books
+- 《AI 原生组织》AI-Native Organization — https://aiorg.fly2ai.top · https://github.com/Jweokk/ai-native-organization-book
+  哪些组织真的把 AI 长成了组织基因（贴膏药 vs 长基因）、实证研究怎么说、以及从零开始的行为手册；中英双语，周更。
+- 《AI 时代人生指南》 — https://ailife.fly2ai.top · https://github.com/Jweokk/ai-life-guide
+  写给普通人的 AI 时代轻松生活手册；单页 HTML，10 篇短文。
+- 《AI 客户经营》AI Customer Lifecycle Management — https://ai-customer-growth.fly2ai.top · https://github.com/Jweokk/ai-customer-growth-book
+  客户全生命周期（获客 → 转化 → 服务 → 留存 → 扩展）的 AI 经营方法、组织变革与边界；中英双语，周更。
+
+## 开源项目 / Open projects
+- Book2Advisor — https://github.com/Jweokk/Book2Advisor
+  把一个人的书 / 演讲 / 访谈编译成可追溯、可推演的方法论顾问（Person Method Model + Method Transfer）。
