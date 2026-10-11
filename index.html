@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jweokk 作品集 · 开源书与开源项目</title>
-<meta name="description" content="Jweokk 的开源作品集：免费开源书（AI 原生组织、AI 时代人生指南、AI 客户经营、AI 获客、变老说明书）+ 开源项目（Book2Advisor 方法论顾问框架）。GitHub 全部公开。">
+<meta name="description" content="Jweokk 的开源作品集：免费开源书（AI 原生组织、AI 时代人生指南、AI 客户经营、AI 获客、变老说明书）+ 开源项目（Book2Advisor 方法论顾问框架）+ 创意（无限背景音乐）。GitHub 全部公开。">
 <style>
   :root {
     --bg1: #fdf6ff;
@@ -75,6 +75,7 @@
   .tag.published { background: #e0f2fe; color: #0369a1; }
   .tag.writing   { background: #ede9fe; color: #6d28d9; }
   .tag.project   { background: #d1fae5; color: #047857; }
+  .tag.creative  { background: #fce7f3; color: #be185d; }
   .card h2 { font-size: 1.4rem; font-weight: 800; margin-bottom: 8px; }
   .card .desc { color: var(--muted); font-size: .93rem; flex-grow: 1; margin-bottom: 18px; }
   .card .links { display: flex; flex-wrap: wrap; gap: 10px; }
@@ -87,6 +88,12 @@
     transition: all .18s ease;
   }
   .card .links a:hover { background: var(--accent); color: #fff; transform: translateY(-1px); }
+  .card .metrics {
+    margin-top: 14px; padding-top: 12px;
+    border-top: 1px dashed #eef0f6;
+    font-size: .78rem; color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
   footer { text-align: center; margin-top: 64px; color: var(--muted); font-size: .85rem; }
   footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
 </style>
@@ -95,7 +102,7 @@
 <div class="wrap">
   <header>
     <h1>🎨 Jweokk 作品集</h1>
-    <p>开源书 + 开源项目，全部免费公开。写作与构建都在持续进行——欢迎来逛 🚀</p>
+    <p>开源书 + 开源项目 + 创意小玩意儿，全部免费公开。写作与构建都在持续进行——欢迎来逛 🚀</p>
   </header>
 
   <!-- ============ 开源书 ============ -->
@@ -110,6 +117,7 @@
         <a href="https://aiorg.fly2ai.top" target="_blank" rel="noopener">在线阅读</a>
         <a href="https://github.com/Jweokk/ai-native-organization-book" target="_blank" rel="noopener">GitHub 仓库</a>
       </div>
+      <p class="metrics" data-site="aiorg" data-pdf="ai-native-organization.pdf" hidden></p>
     </div>
 
     <!-- AI 时代人生指南 -->
@@ -121,6 +129,7 @@
         <a href="https://ailife.fly2ai.top" target="_blank" rel="noopener">在线阅读</a>
         <a href="https://github.com/Jweokk/ai-life-guide" target="_blank" rel="noopener">GitHub 仓库</a>
       </div>
+      <p class="metrics" data-site="ailife" hidden></p>
     </div>
 
     <!-- AI 客户经营 -->
@@ -132,6 +141,7 @@
         <a href="https://ai-customer-growth.fly2ai.top" target="_blank" rel="noopener">在线阅读</a>
         <a href="https://github.com/Jweokk/ai-customer-growth-book" target="_blank" rel="noopener">GitHub 仓库</a>
       </div>
+      <p class="metrics" data-site="growth" data-pdf="ai-customer-growth.pdf" hidden></p>
     </div>
 
     <!-- AI 获客 -->
@@ -143,6 +153,7 @@
         <a href="https://ai-customer-acquisition.fly2ai.top" target="_blank" rel="noopener">在线阅读</a>
         <a href="https://github.com/Jweokk/ai-customer-acquisition-book" target="_blank" rel="noopener">GitHub 仓库</a>
       </div>
+      <p class="metrics" data-site="acquire" data-pdf="ai-customer-acquisition.pdf" hidden></p>
     </div>
     <!-- 变老说明书 -->
     <div class="card">
@@ -153,6 +164,7 @@
         <a href="https://aging.fly2ai.top" target="_blank" rel="noopener">在线阅读</a>
         <a href="https://github.com/Jweokk/aging-manual-book" target="_blank" rel="noopener">GitHub 仓库</a>
       </div>
+      <p class="metrics" data-site="aging" data-pdf="aging-manual.pdf" hidden></p>
     </div>
   </div>
 
@@ -170,9 +182,69 @@
     </div>
   </div>
 
+  <!-- ============ 创意 ============ -->
+  <div class="section-title">✨ 创意 <span class="count">1</span></div>
+  <div class="grid">
+    <!-- 无限背景音乐 -->
+    <div class="card">
+      <span class="tag creative">🎵 已开源 · 免费</span>
+      <h2>无限背景音乐</h2>
+      <p class="desc">在浏览器里实时生成的背景音乐：16 种风格、13 种乐器、10 个效果器，一个音频文件都不加载，全靠 Web Audio 现场合成。同一个 Seed 永远生成同一首曲子，按一下就能听到只属于这个编号的那段音乐。中英双语，日夜两套配色，手机上也能出声。</p>
+      <div class="links">
+        <a href="https://bgm.fly2ai.top" target="_blank" rel="noopener">在线试听</a>
+        <a href="https://github.com/Jweokk/infinite-bgm" target="_blank" rel="noopener">GitHub 仓库</a>
+      </div>
+      <p class="metrics" data-bgm hidden></p>
+    </div>
+  </div>
+
   <footer>
     <p>© Jweokk · 免费阅读与非商业性分享 · 联系 <a href="mailto:weokk2025@gmail.com">weokk2025@gmail.com</a></p>
   </footer>
 </div>
+
+<!-- 卡片上的统计：书的数字来自自建计数器 counter.fly2ai.top（各书站页脚同一个后端），
+     背景音乐的数字来自它自己的计数器。任一后端不可用就什么都不显示，不影响页面。 -->
+<script>
+(function () {
+  "use strict";
+  var API = "https://counter.fly2ai.top";
+
+  function fmt(n) { return (n || 0).toLocaleString("zh-CN"); }
+
+  function paint(el, data, pdf) {
+    if (!el || !data) return;
+    var parts = ["👁 访问 " + fmt(data.views), "独立访客 " + fmt(data.visitors)];
+    if (pdf) parts.push("📥 PDF 下载 " + fmt((data.downloads || {})[pdf]));
+    el.textContent = parts.join(" · ");
+    el.hidden = false;
+  }
+
+  try {
+    fetch(API + "/api/overview", { mode: "cors" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || !d.sites) return;
+        Array.prototype.forEach.call(document.querySelectorAll(".metrics[data-site]"), function (el) {
+          paint(el, d.sites[el.getAttribute("data-site")], el.getAttribute("data-pdf") || "");
+        });
+      })
+      .catch(function () {});
+  } catch (e) { /* 静默 */ }
+
+  try {
+    fetch("https://bgm.fly2ai.top/api/count", { mode: "cors" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        var el = document.querySelector(".metrics[data-bgm]");
+        if (el && d && typeof d.views === "number") {
+          el.textContent = "👁 访问 " + fmt(d.views) + " · 独立访客 " + fmt(d.visitors);
+          el.hidden = false;
+        }
+      })
+      .catch(function () {});
+  } catch (e) { /* 静默 */ }
+})();
+</script>
 </body>
 </html>

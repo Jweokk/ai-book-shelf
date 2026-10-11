@@ -1,9 +1,9 @@
 # Jweokk 作品集 / Jweokk's shelf
 
-> 一个入口看到全部作品：免费开源书 + 开源项目。每件作品独立仓库、独立域名，本仓库只是聚合入口。
+> 一个入口看到全部作品：免费开源书 + 开源项目 + 创意。每件作品独立仓库、独立域名，本仓库只是聚合入口。
 
-Free, open, continuously updated books and tools by Jweokk — one index for all of them. The shelf itself
-is a single static page; each work lives in its own repository with its own site.
+Free, open, continuously updated books, tools and experiments by Jweokk — one index for all of them.
+The shelf itself is a single static page; each work lives in its own repository with its own site.
 
 - 站点 / Site：https://ai.fly2ai.top
 - 许可 / License：各作品各自的许可（书为非商业分享 CC BY-NC-SA 4.0，代码多为 MIT）
@@ -16,7 +16,15 @@ is a single static page; each work lives in its own repository with its own site
   写给普通人的 AI 时代轻松生活手册；单页 HTML，10 篇短文。
 - 《AI 客户经营》AI Customer Lifecycle Management — https://ai-customer-growth.fly2ai.top · https://github.com/Jweokk/ai-customer-growth-book
   客户全生命周期（获客 → 转化 → 服务 → 留存 → 扩展）的 AI 经营方法、组织变革与边界；中英双语，周更。
+- 《AI 获客》AI Customer Acquisition — https://ai-customer-acquisition.fly2ai.top · https://github.com/Jweokk/ai-customer-acquisition-book
+  GEO/AEO、暗漏斗与 Agent 时代的客户获取：24 章、135 个办法，每个数字追到原始来源；周更。
+- 《变老说明书》 — https://aging.fly2ai.top · https://github.com/Jweokk/aging-manual-book
+  你或你父母的下一步：22 章 + 6 个附录（含按症状/按心事速查、何时必须叫 120），政策与数字按季度校准。
 
 ## 开源项目 / Open projects
 - Book2Advisor — https://github.com/Jweokk/Book2Advisor
   把一个人的书 / 演讲 / 访谈编译成可追溯、可推演的方法论顾问（Person Method Model + Method Transfer）。
+
+## 创意 / Experiments
+- 无限背景音乐 Infinite BGM — https://bgm.fly2ai.top · https://github.com/Jweokk/infinite-bgm
+  浏览器端实时生成的背景音乐：16 风格 / 13 乐器 / 10 效果器，纯 Web Audio 合成、无音频文件、运行时零依赖；Seed 确定性复现，中英双语 + 日夜模式。
