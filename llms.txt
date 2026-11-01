@@ -20,6 +20,10 @@ The shelf itself is a single static page; each work lives in its own repository 
   GEO/AEO、暗漏斗与 Agent 时代的客户获取：24 章、135 个办法，每个数字追到原始来源；周更。
 - 《变老说明书》 — https://aging.fly2ai.top · https://github.com/Jweokk/aging-manual-book
   你或你父母的下一步：22 章 + 6 个附录（含按症状/按心事速查、何时必须叫 120），政策与数字按季度校准。
+- 《文明重启手册》The Civilization Restart Manual — https://restart.fly2ai.top · https://github.com/Jweokk/civilization-restart-manual
+  工业文明断档后从一块石头重新走到电：56 章、11 部、286 张八字段工艺卡，每张卡可直接带到工位；中英双语，快照版。
+- 《失败的知识》The Knowledge of Failure — https://tkf.fly2ai.top · https://github.com/Jweokk/failure-knowledge-book
+  把失败当作一类知识：24 个跨领域失效机制、14 个领域、159 个案例；案例只写当时可见，停在决策点让读者先判断；中英双语，已出版。
 
 ## 开源项目 / Open projects
 - Book2Advisor — https://github.com/Jweokk/Book2Advisor

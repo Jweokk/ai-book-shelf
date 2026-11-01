@@ -13,6 +13,8 @@ Jweokk 的开源作品合集首页 —— 一个入口看到全部作品：开�
 | 《AI 客户经营》 | ai-customer-growth.fly2ai.top | [Jweokk/ai-customer-growth-book](https://github.com/Jweokk/ai-customer-growth-book) | ✅ 周更中 |
 | 《AI 获客》 | ai-customer-acquisition.fly2ai.top | [Jweokk/ai-customer-acquisition-book](https://github.com/Jweokk/ai-customer-acquisition-book) | ✅ 周更中 |
 | 《变老说明书》 | aging.fly2ai.top | [Jweokk/aging-manual-book](https://github.com/Jweokk/aging-manual-book) | ✅ 季度校准 |
+| 《文明重启手册》 | restart.fly2ai.top | [Jweokk/civilization-restart-manual](https://github.com/Jweokk/civilization-restart-manual) | ✅ 快照版 |
+| 《失败的知识》 | tkf.fly2ai.top | [Jweokk/failure-knowledge-book](https://github.com/Jweokk/failure-knowledge-book) | ✅ 已出版 |
 
 ### 🧰 开源项目
 
@@ -41,7 +43,7 @@ Jweokk 的开源作品合集首页 —— 一个入口看到全部作品：开�
 
 ## 部署
 
-- 站点：https://ai.fly2ai.top（GitHub Pages + CNAME）
+- 站点：[ai.fly2ai.top](https://ai.fly2ai.top) （GitHub Pages + CNAME，CF 代理；源码 [Jweokk/ai-book-shelf](https://github.com/Jweokk/ai-book-shelf)）
 - 每个作品独立 repo + 独立域名/页面，此处仅作聚合入口
 
 ---
